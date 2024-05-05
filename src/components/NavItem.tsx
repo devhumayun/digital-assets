@@ -34,40 +34,6 @@ const NavItem = ({
           />
         </Button>
       </div>
-      {/* {isOpen ? (
-        <div
-          onClick={() => onClose()}
-          className={cn(
-            "absolute inset-x-0 top-full text-sm text-muted-foreground",
-            {
-              "animate-in fade-in-10 slide-in-from-top-5": !isAnyOpen,
-            }
-          )}
-        >
-          <div className="absolute inset-0 top-1/2 shadow bg-white">
-            <div className="relative bg-white">
-              <div className="mx-auto max-w-7xl px-8">
-                <div className="grid grid-clos-4 gap-x-8 gap-y-10 py-16">
-                  <div className="col-span-4 col-start-1 grid grid-cols-3 gap-x-8">
-                    {category.featured.map((item) => (
-                      <div key={item.name} className="">
-                        <div className="">
-                          <Image
-                            src={item.imageSrc}
-                            fill
-                            alt={item.name}
-                            className="object-cover object-center"
-                          />
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      ) : null} */}
       {isOpen ? (
         <div
           onClick={() => close()}
