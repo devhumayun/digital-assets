@@ -18,7 +18,7 @@ const SignUpPage = () => {
             href="/sign-in"
             className={buttonVariants({
               variant: "ghost",
-              className: "underline",
+              className: "hover:underline",
             })}
           >
             Sign In
