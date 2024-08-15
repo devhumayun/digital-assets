@@ -9,7 +9,7 @@ type Category = (typeof PRODUCTCATEGORIES)[number];
 
 interface NavItemProps {
   category: Category;
-  isOpen: () => void;
+  onOpen: () => void;
   onClose: () => void;
   isOpen: boolean;
   isAnyOpen: boolean;
